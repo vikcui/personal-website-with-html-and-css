@@ -1,0 +1,33 @@
+html {
+    background-color: rgb(236, 236, 236);
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* header */
+
+/* navigation */
+/* main */
+
+
+.my-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.my-images img {
+    width : 100%;
+    min-width: 200px; /*specify a min width */
+    max-width: 500px; /*specify a max width */
+    height : 100%;
+
+}
+/* footer */
