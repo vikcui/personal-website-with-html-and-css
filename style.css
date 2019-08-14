@@ -12,6 +12,17 @@ a {
     color: black;
 }
 
+/* pseudo class */
+/* change the color during the active state */
+a:active {
+    color: #fa923f
+}
+
+/* add pointer when mouse hovering above imgs */
+img:hover {
+    cursor: pointer;
+}
+
 /* header */
 .fixed-bar {
     height: 70px;
@@ -62,6 +73,9 @@ a {
 }
 
 /* main */
+.my-images-text {
+    display: none;
+}
 
 .my-images {
     display: flex;
@@ -69,10 +83,18 @@ a {
 }
 
 .my-images img {
-    width : 100%;
-    min-width: 250px; /*specify a min width */
-    max-width: 500px; /*specify a max width */
-    height : 100%;
+    width : 50%;
+    min-width: 200px; /*specify a min width */
+    max-width: 350px; /*specify a max width */
+    height : 50%;
 
 }
 /* footer */
+
+
+/* media query */
+@media (min-width: 700px){
+    .trip-images img{
+        width: 20%;
+    }
+}
