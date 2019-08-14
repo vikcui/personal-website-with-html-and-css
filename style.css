@@ -13,10 +13,55 @@ a {
 }
 
 /* header */
+.fixed-bar {
+    height: 70px;
+}
+
+.page-title {
+    /* fix the title */
+    position: fixed;
+    /* make the font size two times the size of the root element */
+    font-size: 32px;
+    font-size: 2rem;
+    /* make the top edge adhere to its parent */
+    top: 0;
+    /* make the width of the element equal to its containing element */
+    width: 100%;
+    /* make the height of the element equal to 40px */
+    height: 40px;
+    /* make the text of heading center */
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* make the top and bottom padding 10 px */
+    padding: 10px 0;
+    /* make the margin of the heading 0 */
+    margin :0;
+    
+}
 
 /* navigation */
-/* main */
+.navigation {
+    /* make the text of heading center */
+    text-align: center;
+    padding: 0;
+}
 
+.navigation li {
+    display: inline-block;
+    width: 20%;
+    background-color: black;
+    padding: 0;
+    
+}
+/* the a elements inside navigation class */
+.navigation a {
+    color:  white;
+    font-size: 16px;
+    font-size: 1.0rem;
+}
+
+/* main */
 
 .my-images {
     display: flex;
@@ -25,7 +70,7 @@ a {
 
 .my-images img {
     width : 100%;
-    min-width: 200px; /*specify a min width */
+    min-width: 250px; /*specify a min width */
     max-width: 500px; /*specify a max width */
     height : 100%;
 
