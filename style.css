@@ -14,8 +14,8 @@ a {
 
 /* pseudo class */
 /* change the color during the active state */
-a:active {
-    color: #fa923f
+.navigation a:hover, .navigation a :active {
+    color: red;
 }
 
 /* add pointer when mouse hovering above imgs */
@@ -42,7 +42,7 @@ img:hover {
     height: 40px;
     /* make the text of heading center */
     text-align: center;
-    background-color: black;
+    background-color:#fa923f;
     color: white;
     /* make the top and bottom padding 10 px */
     padding: 10px 0;
@@ -61,15 +61,14 @@ img:hover {
 .navigation li {
     display: inline-block;
     width: 20%;
-    background-color: black;
+    background-color: #fa923f;
     padding: 0;
-    
 }
 /* the a elements inside navigation class */
 .navigation a {
     color:  white;
     font-size: 16px;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
 }
 
 /* main */
@@ -80,12 +79,13 @@ img:hover {
 .my-images {
     display: flex;
     flex-wrap: wrap;
+    border: 10px;
 }
 
 .my-images img {
     width : 50%;
-    min-width: 200px; /*specify a min width */
-    max-width: 350px; /*specify a max width */
+    min-width: 100px; /*specify a min width */
+    max-width: 300px; /*specify a max width */
     height : 50%;
 
 }
