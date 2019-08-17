@@ -12,6 +12,41 @@ a {
     color: black;
 }
 
+.header-image img{
+    max-height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.tick-and-cross {
+    display: flex;
+    background-color: #521731;
+}
+
+.tick {
+    width: 50%;
+    text-align: left;
+    color:  white;
+
+}
+
+.tick ul {
+    list-style: none;
+    margin: 0;
+}
+
+.cross {
+    width: 50%;
+    text-align: left;
+    color: white;
+}
+
+.cross ul {
+    list-style: none;
+    margin: 0;
+}
+
+
 /* pseudo class */
 /* change the color during the active state */
 .navigation a:active {
