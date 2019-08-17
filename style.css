@@ -12,6 +12,7 @@ a {
     color: black;
 }
 
+/* about-me page */
 .header-image img{
     max-height: 300px;
     width: 100%;
@@ -45,6 +46,23 @@ a {
     list-style: none;
     margin: 0;
 }
+/* contact-me page */
+.map-parent {
+    display: flex;
+}
+.map {
+    width: 40%;
+    margin-left: 10%;
+}
+.info {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+
+
+
 
 
 /* pseudo class */
