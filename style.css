@@ -14,8 +14,8 @@ a {
 
 /* pseudo class */
 /* change the color during the active state */
-.navigation a:hover, .navigation a :active {
-    color: red;
+.navigation a:active {
+    color:#fa923f;
 }
 
 /* add pointer when mouse hovering above imgs */
@@ -32,8 +32,8 @@ img:hover {
     /* fix the title */
     position: fixed;
     /* make the font size two times the size of the root element */
-    font-size: 32px;
-    font-size: 2rem;
+    font-size: 24px;
+    font-size: 1.5rem;
     /* make the top edge adhere to its parent */
     top: 0;
     /* make the width of the element equal to its containing element */
@@ -42,7 +42,7 @@ img:hover {
     height: 40px;
     /* make the text of heading center */
     text-align: center;
-    background-color:#fa923f;
+    background-color: #521731;
     color: white;
     /* make the top and bottom padding 10 px */
     padding: 10px 0;
@@ -61,14 +61,9 @@ img:hover {
 .navigation li {
     display: inline-block;
     width: 20%;
-    background-color: #fa923f;
-    padding: 0;
-}
-/* the a elements inside navigation class */
-.navigation a {
-    color:  white;
+    background-color: grey;
     font-size: 16px;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 /* main */
@@ -79,14 +74,13 @@ img:hover {
 .my-images {
     display: flex;
     flex-wrap: wrap;
-    border: 10px;
 }
 
 .my-images img {
     width : 50%;
-    min-width: 100px; /*specify a min width */
-    max-width: 300px; /*specify a max width */
-    height : 50%;
+    min-width: 200px; /*specify a min width */
+    max-width: 500px; /*specify a max width */
+    height : 100%;
 
 }
 /* footer */
@@ -94,7 +88,25 @@ img:hover {
 
 /* media query */
 @media (min-width: 700px){
-    .trip-images img{
-        width: 20%;
+    .my-images img{
+        width: 33%;
+    }
+
+    .my-images-text {
+        background-color:#fa923f;
+        padding: 0;
+        display: flex;
+    }
+/* need to treat each p individually */
+    .my-images-text p {
+        background-color: #521731;
+        width: 33.333%;
+        margin: 0;
+        text-align:center;
+        color: white;
+        font-size: 16px;
+        font-size: 1.0rem;
+    
+        
     }
 }
